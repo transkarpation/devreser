@@ -1,20 +1,19 @@
 <template>
-  <div class="top-nav">
-    TopNav
-    <ul class="menu">
-      <li class="menu-item-parent">
-        <a href="#"> женщинам </a>
-        <ul class="submenu">
-          <li class="submenu-item">одежда</li>
-          <li>обувь</li>
-          <li>аксессуары</li>
-          <li>коллекции</li>
+  <nav class="top-nav container">
+    <ul class="level-0">
+      <li class="level-0-li">
+        <a class="level-0-a" href="">женщинам</a>
+        <ul class="level-1">
+          <li class="level-1-li">
+            <h3 class="level-1-title">
+              одежда
+            </h3>
+          </li>
         </ul>
       </li>
-      <li class="menu-item-parent">
-        <a href="#"> мужчинам </a>
+      <li class="level-0-li">
+        <a class="level-0-a">мужчинам</a>
       </li>
     </ul>
-    User corner
-  </div>
+  </nav>
 </template>

@@ -1,36 +1,23 @@
 .top-nav {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid rgba(0, 0, 0, .3);
+  a {
+    color: inherit;
+  }
 
-  .menu {
+  .level-0 {
     display: flex;
     justify-content: center;
-    list-style: none;
-    position: relative;
-    width: 800px;
   }
 
-  .menu-item-parent {
-    a {
-      display: inline-block;
-      padding: 26px 20px;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-size: 13px;
-      color: black;
-    }
-  }
+  .level-0-a {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    padding: 26px 20px;
 
-  .submenu {
-    position: absolute;
-    left: 0;
-    right: 0;
-    border: 1px solid royalblue;
-    display: flex;
-
-    li {
-      
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
     }
   }
 }
